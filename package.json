@@ -1,0 +1,22 @@
+{
+  "name": "rhine-var-server",
+  "version": "0.6.0",
+  "scripts": {
+    "start": "node src/server.js",
+    "export": "node src/script/export.js",
+    "import": "node src/script/import.js",
+    "backup": "node src/script/backup.js"
+  },
+  "author": "RhineAI",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "http": "^0.0.1-security",
+    "lib0": "^0.2.88",
+    "lodash.debounce": "^4.0.8",
+    "ws": "^8.17.1",
+    "y-leveldb": "^0.1.2",
+    "y-protocols": "^1.0.6",
+    "yjs": "^13.6.10"
+  }
+}
