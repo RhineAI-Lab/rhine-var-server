@@ -1,2 +1,2 @@
 
-# RHINE VAR SERVER
+# RHINE-VAR Base Sync Server
