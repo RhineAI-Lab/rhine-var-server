@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const { LeveldbPersistence } = require('y-leveldb')
 
-const persistenceDir = process.env.YPERSISTENCE || './database'
+const persistenceDir = process.env.DATABASE_DIR || './database'
 const importDir = process.env.IMPORT_DIR || './import'
 
 const ldb = new LeveldbPersistence(persistenceDir)
